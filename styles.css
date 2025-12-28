@@ -272,3 +272,58 @@ body {
     height: 187.39691162109375px;
     opacity: 1;
 }
+
+
+
+/* *Page 3 */
+.page3-content {
+    width: 1241.298828125px;
+    height: 471.9999694824219px;
+    margin: 226px auto;
+    padding-top: 43px 0;
+    opacity: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.page3-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 530px;
+    height: 357px;
+    opacity: 1;
+    gap: 60px;
+}
+
+.p3-c-l-l {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    gap: 7px;
+}
+
+.p3-c-l-l h3 {
+    width: 333px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+}
+
+.p3-c-l-l p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.page3-content-left button {
+    width: 236px;
+    height: 52px;
+}
+
+
