@@ -143,4 +143,132 @@ body {
     height: 52px;
 }
 
+/* *Page 2 */
+/* @top content */
+.page2-content-top {
+    width: 550px;
+    height: 182px;
+    margin: auto;
+    text-align: center;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.page2-content-top h2 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+}
+
+.page2-content-top p {
+    width: 530px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* @mid content */
+.page2-content-mid {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+    margin: 80px auto;
+    width: 869px;
+    height: 257px;
+    opacity: 1;
+    gap: 52px;
+}
+
+.page2-card {
+    width: 255px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.page2-card img {
+    width: 45.75;
+    height: 45.75;
+    opacity: 1;
+    top: 7.63px;
+    left: 7.63px;
+}
+
+.page2-card h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.page2-card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* @bottom content */
+.page2-content-bottom {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1058.19140625px;
+    height: 762.30322265625px;
+    opacity: 1;
+    gap: 59.07px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.page2-content-bottom img {
+    width: 1177.3414306640625px;
+    height: 658.30322265625px;
+    opacity: 1;
+    border-radius: 81.48px;
+    display: block;
+}
+
+.play-btn {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+
+    opacity: 1;
+    background-color: transparent;
+    border: none;
+
+    display: grid;
+    place-items: center;
+
+    cursor: pointer;
+}
+
+.play-btn img {
+    width: 187.39691162109375px;
+    height: 187.39691162109375px;
+    opacity: 1;
+}
