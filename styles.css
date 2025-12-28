@@ -146,10 +146,18 @@ body {
 
 /* *Page 2 */
 /* @top content */
+#page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: auto;
+    gap: 80px;
+}
+
 .page2-content-top {
     width: 550px;
     height: 182px;
-    margin: auto;
     text-align: center;
 
     display: flex;
@@ -159,7 +167,6 @@ body {
 }
 
 .page2-content-top h2 {
-    font-family: 'Open Sans';
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
@@ -243,6 +250,7 @@ body {
     margin: auto;
     overflow: hidden;
 }
+
 .page2-content-bottom img {
     width: 1177.3414306640625px;
     height: 658.30322265625px;
@@ -429,4 +437,78 @@ body {
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 0.2px;
+}
+
+/* *Page5 */
+#page5 {
+    width: 1440px;
+    height: 932px;
+    opacity: 1;
+    margin: auto;
+}
+
+.page5-content-mid-container {
+    display: grid;
+    grid-template-rows: 165px 165px;
+    gap: 0;
+
+    width: 1095px;
+    margin: 80px auto;
+}
+
+.page5-card-up {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.page5-card-down {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.page5-content-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.page5-content-bottom button {
+    width: 236px;
+    height: 60px;
+}
+
+
+/* *Page 6 */
+#page6 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 80px;
+
+    width: 1440px;
+    height: 773px;
+    opacity: 1;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page2-content-top {
+    height: 55px;
+    /* margin: 0 auto; */
+}
+
+.page6-conetnt-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.page6-content-mid-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
